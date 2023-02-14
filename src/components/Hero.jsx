@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import img1 from '../assets/Alemba.png'
+import {Link} from 'react-router-dom'
 import './Hero.css';
 
 const Hero = () => {
@@ -12,8 +13,8 @@ const Hero = () => {
         <div className="info">
           <h1>I'm Alex Kiragu</h1>
           <p>Fullstack Developer and a UI/UX Designer.</p>
-          <button >Projects</button>  
-          <button >Resume</button>
+          <Link to='/Projects'><button >Projects</button></Link>
+          <Link to='/Resume'><button >Resume</button></Link>
         </div>
       </div> 
     </div>

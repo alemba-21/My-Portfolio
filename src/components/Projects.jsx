@@ -1,12 +1,19 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import{FaTwitter, FaGithub, FaLinkedin, FaHome} from 'react-icons/fa'
 import "./Projects.css"
 
 const Projects = () => {
   return (
     <div className='projo'>
         <div className="navbar">
-            <div className="logo"></div>
-            <div className="socials"></div>
+        <div className='alemba'>Alemba</div>
+          <div className="socials">
+              <Link to='/'><FaHome className='icons'/></Link>
+              <Link to='https://www.linkedin.com/in/alex-kiragu-754690219/'><FaLinkedin className='icons'/></Link>
+              <Link to='https://twitter.com/alemba97'><FaTwitter className='icons'/></Link>
+              <Link to='https://github.com/Alemba-Alex'><FaGithub className='icons'/></Link>
+          </div>
         </div>
         <div className="info2">
             <h1>Projects</h1>
