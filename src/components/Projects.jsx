@@ -1,10 +1,12 @@
 import React from 'react'
+import "./Projects.css"
 
 const Projects = () => {
   return (
     <div className='projo'>
         <div className="navbar">
-            
+            <div className="logo"></div>
+            <div className="socials"></div>
         </div>
         <div className="info2">
             <h1>Projects</h1>
