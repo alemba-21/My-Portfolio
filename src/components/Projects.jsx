@@ -20,11 +20,13 @@ const Projects = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nam adipisci soluta officia at commodi iure illo natus blanditiis consequuntur ipsa temporibus hic fugit, veritatis recusandae debitis enim sequi magni!</p>
         </div>
         <div className="toggle">
-            <button>Designs</button>
-            <button>E-Commerce</button>
-            <button>API Projects</button>
+          <Link to='/Designs'><button>Designs</button></Link>
+          <Link to='/E-Commerce'><button>E-Commerce</button></Link>
+          <Link to='/API'><button>API Projects</button></Link>
         </div>
-        <div className="cards"></div>
+        <div className="cards">
+          
+        </div>
     </div>
   )
 }
