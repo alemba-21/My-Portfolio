@@ -1,7 +1,7 @@
 .projo{
     background-color: black;
     width: 100%;
-    height:100vh;
+    height:auto;
 }
 
 .navbar{
@@ -64,6 +64,33 @@
 .socials .icons:hover{
     color:white;
     transition: .1s;
+}
+
+.cards{
+    border: 1px solid green;
+    box-shadow: 0 10 10px green;
+    width: 250px;
+    margin: 20px;
+}
+
+.cards-img img{
+    width: 249px;
+}
+
+.cards-title, 
+.cards-descriptions{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.cards-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.cards-descriptions{
+    font-size: 12px;
 }
 
 
