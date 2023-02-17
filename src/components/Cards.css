@@ -1,0 +1,28 @@
+.cards{
+    border: 1px solid green;
+    box-shadow: 0 0 40px green;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px;
+}
+
+.cards-img img{
+    width: 299px;
+    border-radius: 10px;
+}
+
+.cards-title, 
+.cards-descriptions{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.cards-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.cards-descriptions{
+    font-size: 12px;
+}

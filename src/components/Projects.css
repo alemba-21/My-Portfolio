@@ -66,33 +66,15 @@
     transition: .1s;
 }
 
-.cards{
-    border: 1px solid green;
-    box-shadow: 0 10 10px green;
-    width: 250px;
-    margin: 20px;
-}
-
-.cards-img img{
-    width: 249px;
-}
-
-.cards-title, 
-.cards-descriptions{
-    color: white;
+.content-1{
+    /* width: 80%; */
     text-align: center;
-    margin: 0;
-    padding: 10px;
+    /* margin-left: 2%; */
 }
 
-.cards-title{
-    font-weight: bold;
-    font-size: 14px;
+.content-1 > .cards{
+    display: inline-block;
 }
-.cards-descriptions{
-    font-size: 12px;
-}
-
 
 
 
