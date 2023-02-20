@@ -5,10 +5,10 @@
  }
 
  .img1{
-    border-image: fill;
-    width: 50%;
-    margin-left: 630px;
-    margin-top: -100px;
+    /* border-image: fill; */
+    width: 47%;
+    margin-left: 660px;
+    margin-top: -70px;
     transform:scaleX(-1);
     position: relative;
  }
