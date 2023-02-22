@@ -6,6 +6,7 @@ import{FaTwitter, FaGithub, FaLinkedin, FaHome} from 'react-icons/fa'
 import "./Projects.css"
 
 const Projects = () => {
+
   return (
     <div className='projo'>
         <div className="navbar">
@@ -21,13 +22,11 @@ const Projects = () => {
             <h1>Projects</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nam adipisci soluta officia at commodi iure illo natus blanditiis consequuntur ipsa temporibus hic fugit, veritatis recusandae debitis enim sequi magni!</p>
         </div>
+        {/* <Button filter={filter}/> */}
         <div className="toggle" defaultValue="Designs">
-            <button>Designs</button>
-            <button>E-Commerce</button>
-            <button>API Projects</button>
-          <div className="content-1">
-            <Cards details={CardData}/>
-          </div>
+        <div className="content-1">
+            <Cards menuItem={CardData}/>
+        </div>
         </div>
     </div>
   )

@@ -2,8 +2,14 @@
     border: 1px solid green;
     box-shadow: 0 0 40px green;
     border-radius: 10px;
+    overflow: hidden;
     width: 300px;
     margin: 50px;
+}
+
+.cards > .cards-img:hover{
+    transform: scale(1.1);
+    transition: .1s;
 }
 
 .cards-img img{

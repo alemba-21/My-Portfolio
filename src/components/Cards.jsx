@@ -3,7 +3,7 @@ import './Cards.css';
 
 const Cards = (props) => {
   return (
-    props.details.map((value, index) => (
+    props.menuItem.map((value, index) => (
       <div className='cards' key={index}>
         <div className="cards-img">
           <img src={value.img} alt={value.title}/>

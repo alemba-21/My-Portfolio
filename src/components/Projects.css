@@ -64,6 +64,7 @@
 .socials .icons:hover{
     color:white;
     transition: .1s;
+    transform: scale(1.1);
 }
 
 .content-1{
